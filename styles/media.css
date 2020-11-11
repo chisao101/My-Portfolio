@@ -1,0 +1,44 @@
+@media(max-width: 768px){
+    .header-box1{
+        flex: 1 1 20%;
+    }
+    
+   .header-box2{
+        flex: 0 0 100%;
+        order: 2;
+
+    }
+    
+    .header-box3{
+        flex: 1 1 20%;
+
+    }
+
+    header nav a{
+        flex: 1 1 20%;
+    }
+}
+
+@media(max-width: 480px){
+    
+    .header-box1{
+        flex: 1 1 100%;
+    }
+
+    .header-box2{
+        flex: 1 1 100%;
+        order: 2;
+    }
+    
+    .header-box3{
+        flex: 1 1 100%;
+    }
+
+    header nav a{
+        flex: 1 1 100%;
+    }
+    
+    header nav{
+        gap: .2rem;
+    }
+}
