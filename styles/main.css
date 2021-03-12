@@ -55,6 +55,56 @@ header nav a{
     color: #fff;
 }
 
+/* Hero Styles */
+
+.hero{
+    background-image: url("/images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.hero-inner-container{
+    background-color: rgba(00, 00, 00, .8);
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+}
+
+.hero-inner-image{
+    overflow: hidden;
+    flex: 1 1 200px;
+}
+
+.hero img{
+    border: 5px solid #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.hero-inner-content{
+    flex: 2 2 400px;
+}
+
+
+.hero-inner-content h1{
+    text-align: left;
+    font-size: clamp(40px, 5vw, 70px);
+    line-height: 4rem;
+}
+
+.hero-inner-container p{
+    text-align: left;
+    font-size: clamp(16px, 2vw, 20px);
+    display: inline-block;
+}
+
 /* Main Body Styles */
 
 main, footer{
@@ -67,9 +117,9 @@ p{
     padding: 1rem;
 }
 
-h1, h2, h3, h4, h5, h5{
+/* h1, h2, h3, h4, h5, h5{
     text-align: center;
-}
+} */
 
 header{
     background-color: rgb(45, 45, 45);
@@ -84,3 +134,25 @@ header{
     width: 100%;
 }
 
+.gallery{
+    padding: 2rem;
+    width: 70%;
+    margin: 0 auto;
+    margin: 0 auto;
+}
+
+.gallery-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-box{
+    width: 200px;
+    margin: 2rem;
+}
+
+.gallery-box p{
+    text-align: center;
+}
